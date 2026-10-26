@@ -1,6 +1,6 @@
-# TOKEN DASHBOARD
+# WATCH MY HARNESS
 
-**See where your AI-coding tokens went.** A local-first dashboard for Claude Code, Codex, Hermes and any other harness you use. One small file, nothing to install, nothing leaves your machine.
+**Token Dashboard: see where your AI-coding tokens went.** A local-first dashboard for Claude Code, Codex, Hermes and any other harness you use. One small file, nothing to install, nothing leaves your machine.
 
 ![Overview](docs/images/overview.png)
 
@@ -10,20 +10,20 @@ Get the file for your system from the [latest release](../../releases/latest), u
 
 | System | File |
 |---|---|
-| macOS (Apple Silicon) | `token-dashboard_*_darwin_arm64.tar.gz` |
-| macOS (Intel) | `token-dashboard_*_darwin_amd64.tar.gz` |
-| Windows | `token-dashboard_*_windows_amd64.zip` |
-| Linux (x86-64 / ARM64) | `token-dashboard_*_linux_amd64.tar.gz` / `_linux_arm64.tar.gz` |
+| macOS (Apple Silicon) | `watch-my-harness_*_darwin_arm64.tar.gz` |
+| macOS (Intel) | `watch-my-harness_*_darwin_amd64.tar.gz` |
+| Windows | `watch-my-harness_*_windows_amd64.zip` |
+| Linux (x86-64 / ARM64) | `watch-my-harness_*_linux_amd64.tar.gz` / `_linux_arm64.tar.gz` |
 
 No Python, Node or Docker needed. Check the download against `SHA256SUMS.txt` if you like.
 
 ## First run
 
-1. Run `token-dashboard`. The dashboard opens in its own window.
+1. Run `watch-my-harness`. The dashboard opens in its own window.
 2. Pick the harnesses to track. Claude Code, Codex and Hermes are listed by default and you can edit, remove or add your own (any tool that writes the simple `generic` log format).
 3. It scans your history and shows your usage. Change the sources any time in **Settings → Sources**.
 
-**Unsigned beta:** macOS shows "unidentified developer" the first time (right-click the app → Open, or `xattr -d com.apple.quarantine token-dashboard`). Windows SmartScreen shows "More info → Run anyway". Signed builds will come later.
+**Unsigned beta:** macOS shows "unidentified developer" the first time (right-click the app → Open, or `xattr -d com.apple.quarantine watch-my-harness`). Windows SmartScreen shows "More info → Run anyway". Signed builds will come later.
 
 ## What you get
 

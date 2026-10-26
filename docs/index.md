@@ -1,4 +1,4 @@
-# TOKEN DASHBOARD
+# WATCH MY HARNESS
 
 Local-first analytics for the tokens your AI-coding harnesses spend. Works with Claude Code, Codex, Hermes and anything that can write a simple log.
 

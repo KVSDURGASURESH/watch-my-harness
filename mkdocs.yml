@@ -1,6 +1,6 @@
-site_name: TOKEN DASHBOARD
+site_name: WATCH MY HARNESS
 site_description: Local-first token usage analytics for Claude Code, Codex, Hermes and other agents
-repo_url: https://github.com/KVSDURGASURESH/token-dashboard
+repo_url: https://github.com/KVSDURGASURESH/watch-my-harness
 docs_dir: docs
 theme:
   name: material
