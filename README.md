@@ -4,6 +4,12 @@
 
 ![Overview](docs/images/overview.png)
 
+## Watch the 70-second demo
+
+[![Demo](docs/images/demo-thumb.png)](media/watch-my-harness-demo.mp4)
+
+What it is and why it exists, in 70 seconds (click to play; narration only).
+
 ## Download (free beta)
 
 Get the file for your system from the [latest release](../../releases/latest), unzip it and run it.
