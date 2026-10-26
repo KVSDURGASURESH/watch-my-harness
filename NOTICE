@@ -1,0 +1,19 @@
+TOKEN DASHBOARD (Go build) — third-party notices
+
+This product is a fork of token-dashboard by Nathan Herkelman (nateherkai),
+https://github.com/nateherkai/token-dashboard, distributed under the MIT
+License. The full upstream licence text is in the LICENSE file shipped with
+this binary (`token-dashboard licence`).
+
+Fonts (self-hosted, web/fonts/):
+  Oswald         Copyright 2016 The Oswald Project Authors
+                 (https://github.com/googlefonts/OswaldFont)
+  JetBrains Mono Copyright 2020 The JetBrains Mono Project Authors
+                 (https://github.com/JetBrains/JetBrainsMono)
+  Both are licensed under the SIL Open Font License 1.1
+  (https://openfontlicense.org). Martian Mono (SIL OFL 1.1, The Martian Mono
+  Project Authors) is bundled but no longer referenced by the UI.
+
+Libraries:
+  Apache ECharts (web/echarts.min.js) — Apache License 2.0.
+  modernc.org/sqlite and its dependencies — BSD-3-Clause (pure-Go SQLite).

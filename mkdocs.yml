@@ -1,0 +1,15 @@
+site_name: TOKEN DASHBOARD
+site_description: Local-first token usage analytics for Claude Code, Codex, Hermes and other agents
+repo_url: https://github.com/KVSDURGASURESH/token-dashboard
+docs_dir: docs
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: amber
+    accent: amber
+nav:
+  - Home: index.md
+  - Install: install.md
+  - Tracking your harnesses: sources.md
+  - Privacy: privacy.md
