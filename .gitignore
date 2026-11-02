@@ -1,1 +1,6 @@
 dist/
+.DS_Store
+*.db
+!contract/fixtures/**/*.db
+watch-my-harness
+watch-my-harness.exe

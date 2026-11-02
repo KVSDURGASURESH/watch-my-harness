@@ -1,0 +1,21 @@
+{
+ "body": {
+  "archetype": "The Sprinter",
+  "insufficient_data": false,
+  "scores": {
+   "engineering": 34,
+   "execution": 55,
+   "planning": 44,
+   "steering": 73
+  },
+  "turns": 49
+ },
+ "name": "profile",
+ "request": {
+  "body": null,
+  "headers": {},
+  "method": "GET",
+  "path": "/api/profile"
+ },
+ "status": 200
+}

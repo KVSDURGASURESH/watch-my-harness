@@ -1,0 +1,21 @@
+{
+ "body": {
+  "archetype": "The Sprinter",
+  "insufficient_data": false,
+  "scores": {
+   "engineering": 0,
+   "execution": 73,
+   "planning": 50,
+   "steering": 75
+  },
+  "turns": 43
+ },
+ "name": "profile_claude",
+ "request": {
+  "body": null,
+  "headers": {},
+  "method": "GET",
+  "path": "/api/profile?source=claude"
+ },
+ "status": 200
+}

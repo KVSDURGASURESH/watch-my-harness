@@ -1,0 +1,102 @@
+{
+ "body": [
+  {
+   "ended": "2026-09-20T10:26:44.123Z",
+   "project_name": "proj",
+   "project_slug": "-Users-x-proj",
+   "session_id": "h_s1_clau",
+   "source": "hermes",
+   "started": "2026-09-20T10:26:40.123Z",
+   "tokens": 60,
+   "turns": 1
+  },
+  {
+   "ended": "2026-09-20T10:26:44.123Z",
+   "project_name": "proj",
+   "project_slug": "-Users-x-proj",
+   "session_id": "h_s1_ojas",
+   "source": "hermes",
+   "started": "2026-09-20T10:26:40.123Z",
+   "tokens": 1100,
+   "turns": 1
+  },
+  {
+   "ended": "2026-09-19T11:03:00Z",
+   "project_name": "alpha",
+   "project_slug": "-Users-x-alpha",
+   "session_id": "sess-alpha-1",
+   "source": "claude",
+   "started": "2026-09-14T09:00:00Z",
+   "tokens": 308497,
+   "turns": 36
+  },
+  {
+   "ended": "2026-09-18T13:00:00Z",
+   "project_name": "proj",
+   "project_slug": "claw-proj",
+   "session_id": "oc-2",
+   "source": "openclaw",
+   "started": "2026-09-18T13:00:00Z",
+   "tokens": 6,
+   "turns": 0
+  },
+  {
+   "ended": "2026-09-18T12:03:00Z",
+   "project_name": "claw",
+   "project_slug": "-Users-x-claw",
+   "session_id": "oc-1",
+   "source": "openclaw",
+   "started": "2026-09-18T12:00:00Z",
+   "tokens": 492,
+   "turns": 2
+  },
+  {
+   "ended": "2026-09-17T08:04:00Z",
+   "project_name": "proj",
+   "project_slug": "-Users-x-proj",
+   "session_id": "01a03549-440a-7b53-b769-16c8a6a19ba0",
+   "source": "codex",
+   "started": "2026-09-16T19:03:00Z",
+   "tokens": 1600,
+   "turns": 2
+  },
+  {
+   "ended": "2026-09-16T10:02:00Z",
+   "project_name": "my-proj",
+   "project_slug": "-Users-x-my-proj",
+   "session_id": "sess-beta-2",
+   "source": "claude",
+   "started": "2026-09-16T10:00:00Z",
+   "tokens": 60,
+   "turns": 2
+  },
+  {
+   "ended": "2026-09-15T09:07:00Z",
+   "project_name": "my-proj",
+   "project_slug": "-Users-x-my-proj",
+   "session_id": "sess-beta-1",
+   "source": "claude",
+   "started": "2026-09-15T09:00:00Z",
+   "tokens": 166,
+   "turns": 3
+  },
+  {
+   "ended": "2026-04-10T00:00:02Z",
+   "project_name": "work",
+   "project_slug": "-c-work",
+   "session_id": "s1",
+   "source": "claude",
+   "started": "2026-04-10T00:00:00Z",
+   "tokens": 15,
+   "turns": 2
+  }
+ ],
+ "name": "sessions",
+ "request": {
+  "body": null,
+  "headers": {},
+  "method": "GET",
+  "path": "/api/sessions"
+ },
+ "status": 200
+}

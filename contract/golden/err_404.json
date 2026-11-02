@@ -1,0 +1,11 @@
+{
+ "body": null,
+ "name": "err_404",
+ "request": {
+  "body": null,
+  "headers": {},
+  "method": "GET",
+  "path": "/api/nope"
+ },
+ "status": 404
+}

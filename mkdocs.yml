@@ -12,4 +12,6 @@ nav:
   - Home: index.md
   - Install: install.md
   - Tracking your harnesses: sources.md
+  - Archive: archive.md
   - Privacy: privacy.md
+  - Build from source: build.md

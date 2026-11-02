@@ -1,0 +1,100 @@
+{
+ "body": [
+  {
+   "agents": [
+    "claude"
+   ],
+   "by_agent": {
+    "claude": 36
+   },
+   "calls": 36,
+   "result_tokens": 0,
+   "tool_name": "Bash"
+  },
+  {
+   "agents": [
+    "claude"
+   ],
+   "by_agent": {
+    "claude": 13
+   },
+   "calls": 13,
+   "result_tokens": 0,
+   "tool_name": "Read"
+  },
+  {
+   "agents": [
+    "claude"
+   ],
+   "by_agent": {
+    "claude": 1
+   },
+   "calls": 1,
+   "result_tokens": 0,
+   "tool_name": "Edit"
+  },
+  {
+   "agents": [
+    "claude"
+   ],
+   "by_agent": {
+    "claude": 1
+   },
+   "calls": 1,
+   "result_tokens": 0,
+   "tool_name": "Grep"
+  },
+  {
+   "agents": [
+    "claude"
+   ],
+   "by_agent": {
+    "claude": 1
+   },
+   "calls": 1,
+   "result_tokens": 0,
+   "tool_name": "Skill"
+  },
+  {
+   "agents": [
+    "claude"
+   ],
+   "by_agent": {
+    "claude": 1
+   },
+   "calls": 1,
+   "result_tokens": 0,
+   "tool_name": "Task"
+  },
+  {
+   "agents": [
+    "claude"
+   ],
+   "by_agent": {
+    "claude": 1
+   },
+   "calls": 1,
+   "result_tokens": 0,
+   "tool_name": "Unknown"
+  },
+  {
+   "agents": [
+    "claude"
+   ],
+   "by_agent": {
+    "claude": 1
+   },
+   "calls": 1,
+   "result_tokens": 0,
+   "tool_name": "WebFetch"
+  }
+ ],
+ "name": "tools_claude",
+ "request": {
+  "body": null,
+  "headers": {},
+  "method": "GET",
+  "path": "/api/tools?source=claude"
+ },
+ "status": 200
+}

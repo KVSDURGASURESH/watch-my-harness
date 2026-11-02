@@ -1,0 +1,68 @@
+{
+ "body": [
+  {
+   "cache_create_tokens": 0,
+   "cache_read_tokens": 50,
+   "day": "2026-04-10",
+   "input_tokens": 10,
+   "output_tokens": 5
+  },
+  {
+   "cache_create_tokens": 10000,
+   "cache_read_tokens": 4000,
+   "day": "2026-09-14",
+   "input_tokens": 36006,
+   "output_tokens": 1206
+  },
+  {
+   "cache_create_tokens": 10000,
+   "cache_read_tokens": 4300,
+   "day": "2026-09-15",
+   "input_tokens": 36133,
+   "output_tokens": 1277
+  },
+  {
+   "cache_create_tokens": 10010,
+   "cache_read_tokens": 4600,
+   "day": "2026-09-16",
+   "input_tokens": 37178,
+   "output_tokens": 1338
+  },
+  {
+   "cache_create_tokens": 0,
+   "cache_read_tokens": 100,
+   "day": "2026-09-17",
+   "input_tokens": 71500,
+   "output_tokens": 140
+  },
+  {
+   "cache_create_tokens": 0,
+   "cache_read_tokens": 300,
+   "day": "2026-09-18",
+   "input_tokens": 1011,
+   "output_tokens": 147
+  },
+  {
+   "cache_create_tokens": 10400,
+   "cache_read_tokens": 25000,
+   "day": "2026-09-19",
+   "input_tokens": 123100,
+   "output_tokens": 1785
+  },
+  {
+   "cache_create_tokens": 14,
+   "cache_read_tokens": 5900,
+   "day": "2026-09-20",
+   "input_tokens": 1010,
+   "output_tokens": 150
+  }
+ ],
+ "name": "daily",
+ "request": {
+  "body": null,
+  "headers": {},
+  "method": "GET",
+  "path": "/api/daily"
+ },
+ "status": 200
+}

@@ -1,0 +1,15 @@
+{
+ "body": {
+  "error": "invalid JSON"
+ },
+ "name": "err_post_badjson",
+ "request": {
+  "body": "{nope",
+  "headers": {
+   "Content-Type": "application/json"
+  },
+  "method": "POST",
+  "path": "/api/plan"
+ },
+ "status": 400
+}

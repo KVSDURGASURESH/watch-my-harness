@@ -1,0 +1,6 @@
+{"session_id": "oc-1", "timestamp": "2026-09-18T12:00:00Z", "model": "qwen3.5", "input_tokens": 100, "output_tokens": 20, "cache_read_tokens": 0, "cwd": "/Users/x/claw", "prompt": "openclaw prompt 0 \u00e9", "tools": ["browse", "Bash"]}
+{"session_id": "oc-1", "timestamp": "2026-09-18T12:01:00Z", "model": "qwen3.5", "input_tokens": 101, "output_tokens": 21, "cache_read_tokens": 50, "cwd": "/Users/x/claw"}
+{"session_id": "oc-1", "timestamp": "2026-09-18T12:02:00Z", "model": "qwen3.5", "input_tokens": 102, "output_tokens": 22, "cache_read_tokens": 100, "cwd": "/Users/x/claw", "prompt": "openclaw prompt 2 \u00e9", "tools": ["browse", "Bash"]}
+{"session_id": "oc-1", "timestamp": "2026-09-18T12:03:00Z", "model": "qwen3.5", "input_tokens": 103, "output_tokens": 23, "cache_read_tokens": 150, "cwd": "/Users/x/claw"}
+{"session_id": "oc-2", "timestamp": "2026-09-18T13:00:00Z", "model": "gpt-x", "input_tokens": 5, "output_tokens": 1, "project": "claw-proj"}
+{"timestamp": "2026-09-18T13:01:00Z", "model": "bad-no-session"}

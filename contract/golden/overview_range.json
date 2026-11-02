@@ -1,0 +1,20 @@
+{
+ "body": {
+  "cache_create_1h_tokens": 4000,
+  "cache_create_5m_tokens": 16010,
+  "cache_read_tokens": 9000,
+  "cost_usd": 1.916,
+  "input_tokens": 144811,
+  "output_tokens": 2755,
+  "sessions": 4,
+  "turns": 31
+ },
+ "name": "overview_range",
+ "request": {
+  "body": null,
+  "headers": {},
+  "method": "GET",
+  "path": "/api/overview?since=2026-09-15T00:00:00Z&until=2026-09-18T00:00:00Z"
+ },
+ "status": 200
+}

@@ -1,0 +1,123 @@
+{
+ "body": [
+  {
+   "agents": [
+    "claude",
+    "codex",
+    "hermes",
+    "openclaw"
+   ],
+   "by_agent": {
+    "claude": 36,
+    "codex": 2,
+    "hermes": 2,
+    "openclaw": 2
+   },
+   "calls": 42,
+   "result_tokens": 0,
+   "tool_name": "Bash"
+  },
+  {
+   "agents": [
+    "claude",
+    "codex"
+   ],
+   "by_agent": {
+    "claude": 13,
+    "codex": 1
+   },
+   "calls": 14,
+   "result_tokens": 0,
+   "tool_name": "Read"
+  },
+  {
+   "agents": [
+    "codex",
+    "claude"
+   ],
+   "by_agent": {
+    "claude": 1,
+    "codex": 2
+   },
+   "calls": 3,
+   "result_tokens": 0,
+   "tool_name": "Edit"
+  },
+  {
+   "agents": [
+    "claude",
+    "codex"
+   ],
+   "by_agent": {
+    "claude": 1,
+    "codex": 1
+   },
+   "calls": 2,
+   "result_tokens": 0,
+   "tool_name": "Skill"
+  },
+  {
+   "agents": [
+    "openclaw"
+   ],
+   "by_agent": {
+    "openclaw": 2
+   },
+   "calls": 2,
+   "result_tokens": 0,
+   "tool_name": "browse"
+  },
+  {
+   "agents": [
+    "claude"
+   ],
+   "by_agent": {
+    "claude": 1
+   },
+   "calls": 1,
+   "result_tokens": 0,
+   "tool_name": "Grep"
+  },
+  {
+   "agents": [
+    "claude"
+   ],
+   "by_agent": {
+    "claude": 1
+   },
+   "calls": 1,
+   "result_tokens": 0,
+   "tool_name": "Task"
+  },
+  {
+   "agents": [
+    "claude"
+   ],
+   "by_agent": {
+    "claude": 1
+   },
+   "calls": 1,
+   "result_tokens": 0,
+   "tool_name": "Unknown"
+  },
+  {
+   "agents": [
+    "claude"
+   ],
+   "by_agent": {
+    "claude": 1
+   },
+   "calls": 1,
+   "result_tokens": 0,
+   "tool_name": "WebFetch"
+  }
+ ],
+ "name": "tools",
+ "request": {
+  "body": null,
+  "headers": {},
+  "method": "GET",
+  "path": "/api/tools"
+ },
+ "status": 200
+}

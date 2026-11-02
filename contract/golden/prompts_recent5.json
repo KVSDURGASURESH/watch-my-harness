@@ -1,0 +1,82 @@
+{
+ "body": [
+  {
+   "assistant_uuid": "hermes:main:h_s1_ojas:2",
+   "billable_tokens": 368,
+   "cache_read_tokens": 1666,
+   "estimated_cost_usd": 0.0,
+   "model": "qwen3.5",
+   "project_slug": "-Users-x-proj",
+   "prompt_chars": 11,
+   "prompt_text": "hello there",
+   "session_id": "h_s1_ojas",
+   "source": "hermes",
+   "timestamp": "2026-09-20T10:26:40.123Z",
+   "user_uuid": "hermes:main:h_s1_ojas:1"
+  },
+  {
+   "assistant_uuid": "hermes:main:h_s1_ojas:4",
+   "billable_tokens": 368,
+   "cache_read_tokens": 1666,
+   "estimated_cost_usd": 0.0,
+   "model": "qwen3.5",
+   "project_slug": "-Users-x-proj",
+   "prompt_chars": 11,
+   "prompt_text": "hello there",
+   "session_id": "h_s1_ojas",
+   "source": "hermes",
+   "timestamp": "2026-09-20T10:26:40.123Z",
+   "user_uuid": "hermes:main:h_s1_ojas:1"
+  },
+  {
+   "assistant_uuid": "hermes:main:h_s1_ojas:5",
+   "billable_tokens": 371,
+   "cache_read_tokens": 1668,
+   "estimated_cost_usd": 0.0,
+   "model": "qwen3.5",
+   "project_slug": "-Users-x-proj",
+   "prompt_chars": 11,
+   "prompt_text": "hello there",
+   "session_id": "h_s1_ojas",
+   "source": "hermes",
+   "timestamp": "2026-09-20T10:26:40.123Z",
+   "user_uuid": "hermes:main:h_s1_ojas:1"
+  },
+  {
+   "assistant_uuid": "hermes:builder:h_s1_clau:2",
+   "billable_tokens": 21,
+   "cache_read_tokens": 300,
+   "estimated_cost_usd": 9e-05,
+   "model": "claude-sonnet-4-6",
+   "project_slug": "-Users-x-proj",
+   "prompt_chars": 11,
+   "prompt_text": "hello there",
+   "session_id": "h_s1_clau",
+   "source": "hermes",
+   "timestamp": "2026-09-20T10:26:40.123Z",
+   "user_uuid": "hermes:builder:h_s1_clau:1"
+  },
+  {
+   "assistant_uuid": "hermes:builder:h_s1_clau:4",
+   "billable_tokens": 21,
+   "cache_read_tokens": 300,
+   "estimated_cost_usd": 9e-05,
+   "model": "claude-sonnet-4-6",
+   "project_slug": "-Users-x-proj",
+   "prompt_chars": 11,
+   "prompt_text": "hello there",
+   "session_id": "h_s1_clau",
+   "source": "hermes",
+   "timestamp": "2026-09-20T10:26:40.123Z",
+   "user_uuid": "hermes:builder:h_s1_clau:1"
+  }
+ ],
+ "name": "prompts_recent5",
+ "request": {
+  "body": null,
+  "headers": {},
+  "method": "GET",
+  "path": "/api/prompts?limit=5&sort=recent"
+ },
+ "status": 200
+}

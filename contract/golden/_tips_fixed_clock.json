@@ -1,0 +1,96 @@
+{
+ "all": [
+  {
+   "body": "Cache hit rate is 10% over the last 7 days. Sessions that restart context frequently rebuild cache. Consider longer-lived sessions or fewer context resets.",
+   "category": "cache",
+   "key": "claude:cache:-Users-x-alpha",
+   "scope": "-Users-x-alpha",
+   "source": "claude",
+   "title": "Low cache hit rate in -Users-x-alpha"
+  },
+  {
+   "body": "This file was opened 13 times across 1 sessions in the past 7 days. A summary in CLAUDE.md or one read per session would avoid repeats.",
+   "category": "repeat-file",
+   "key": "claude:repeat-file:src/main.py",
+   "scope": "src/main.py",
+   "source": "claude",
+   "title": "src/main.py read 13 times"
+  },
+  {
+   "body": "Opus turns under 500 output tokens cost ~$4.38 in the last 7 days. Sonnet would have cost ~$0.88 (savings ~$3.50).",
+   "category": "right-size",
+   "key": "claude:right-size:opus-short-turns-7d",
+   "scope": "opus-short-turns-7d",
+   "source": "claude",
+   "title": "23 short Opus turns might fit on Sonnet"
+  },
+  {
+   "body": "Average size is 50,001 tokens. Pipe long Bash output to head/tail and ask for narrower file reads.",
+   "category": "tool-bloat",
+   "key": "claude:tool-bloat:result-50k+",
+   "scope": "result-50k+",
+   "source": "claude",
+   "title": "5 tool results over 50k tokens this week"
+  },
+  {
+   "body": "Largest invocation used 70,010 tokens vs mean 5,935. Worth checking what those did differently.",
+   "category": "subagent-outlier",
+   "key": "claude:subagent-outlier:agent-explore",
+   "scope": "agent-explore",
+   "source": "claude",
+   "title": "Subagent agent-explore has cost outliers"
+  }
+ ],
+ "claude": [
+  {
+   "body": "Cache hit rate is 10% over the last 7 days. Sessions that restart context frequently rebuild cache. Consider longer-lived sessions or fewer context resets.",
+   "category": "cache",
+   "key": "cache:-Users-x-alpha",
+   "scope": "-Users-x-alpha",
+   "source": "claude",
+   "title": "Low cache hit rate in -Users-x-alpha"
+  },
+  {
+   "body": "This file was opened 13 times across 1 sessions in the past 7 days. A summary in CLAUDE.md or one read per session would avoid repeats.",
+   "category": "repeat-file",
+   "key": "repeat-file:src/main.py",
+   "scope": "src/main.py",
+   "source": "claude",
+   "title": "src/main.py read 13 times"
+  },
+  {
+   "body": "This bash command ran 24 times in the past 7 days. Consider a watch flag or shell alias.",
+   "category": "repeat-bash",
+   "key": "repeat-bash:make test",
+   "scope": "make test",
+   "source": "claude",
+   "title": "`make test` ran 24 times"
+  },
+  {
+   "body": "Opus turns under 500 output tokens cost ~$4.38 in the last 7 days. Sonnet would have cost ~$0.88 (savings ~$3.50).",
+   "category": "right-size",
+   "key": "right-size:opus-short-turns-7d",
+   "scope": "opus-short-turns-7d",
+   "source": "claude",
+   "title": "23 short Opus turns might fit on Sonnet"
+  },
+  {
+   "body": "Average size is 50,001 tokens. Pipe long Bash output to head/tail and ask for narrower file reads.",
+   "category": "tool-bloat",
+   "key": "tool-bloat:result-50k+",
+   "scope": "result-50k+",
+   "source": "claude",
+   "title": "5 tool results over 50k tokens this week"
+  },
+  {
+   "body": "Largest invocation used 70,010 tokens vs mean 5,935. Worth checking what those did differently.",
+   "category": "subagent-outlier",
+   "key": "subagent-outlier:agent-explore",
+   "scope": "agent-explore",
+   "source": "claude",
+   "title": "Subagent agent-explore has cost outliers"
+  }
+ ],
+ "codex": [],
+ "today_iso": "2026-09-20T12:00:00"
+}

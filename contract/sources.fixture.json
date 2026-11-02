@@ -1,0 +1,6 @@
+[
+  {"name": "claude",   "kind": "claude",  "path": "claude"},
+  {"name": "codex",    "kind": "codex",   "path": "codex"},
+  {"name": "hermes",   "kind": "hermes",  "path": "hermes", "model_alias": {"ojas-qwen": "qwen3.5"}},
+  {"name": "openclaw", "kind": "generic", "path": "generic"}
+]

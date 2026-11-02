@@ -1,0 +1,25 @@
+{
+ "body": [
+  {
+   "agents": [
+    "claude"
+   ],
+   "by_agent": {
+    "claude": 1
+   },
+   "invocations": 1,
+   "last_used": "2026-09-14T09:02:00Z",
+   "sessions": 1,
+   "skill": "alpha-skill",
+   "tokens_per_call": 66
+  }
+ ],
+ "name": "skills_claude",
+ "request": {
+  "body": null,
+  "headers": {},
+  "method": "GET",
+  "path": "/api/skills?source=claude"
+ },
+ "status": 200
+}

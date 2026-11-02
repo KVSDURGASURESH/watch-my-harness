@@ -1,0 +1,15 @@
+{
+ "body": {
+  "files": 3,
+  "messages": 0,
+  "tools": 0
+ },
+ "name": "scan_noop",
+ "request": {
+  "body": null,
+  "headers": {},
+  "method": "GET",
+  "path": "/api/scan"
+ },
+ "status": 200
+}

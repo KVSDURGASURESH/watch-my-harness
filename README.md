@@ -1,6 +1,6 @@
 # WATCH MY HARNESS
 
-**Token Dashboard: see where your AI-coding tokens went.** A local-first dashboard for Claude Code, Codex, Hermes and any other harness you use. One small file, nothing to install, nothing leaves your machine.
+**Token Dashboard: see where your AI-coding tokens went.** A local-first dashboard for Claude Code, Codex, Hermes and any other harness you use. Open source (MIT). One small file, nothing to install, nothing leaves your machine.
 
 ![Overview](docs/images/overview.png)
 
@@ -10,7 +10,7 @@
 
 What it is and why it exists, in 70 seconds (click to play).
 
-## Download (free beta)
+## Download (beta)
 
 Get the file for your system from the [latest release](../../releases/latest), unzip it and run it.
 
@@ -23,6 +23,17 @@ Get the file for your system from the [latest release](../../releases/latest), u
 
 No Python, Node or Docker needed. Check the download against `SHA256SUMS.txt` if you like.
 
+## Or build it yourself
+
+You need [Go](https://go.dev/dl/) (version in `go.mod`). Nothing else: no CGO, no Node.
+
+```sh
+go install github.com/KVSDURGASURESH/watch-my-harness/go/cmd/watch-my-harness@latest
+watch-my-harness
+```
+
+Or from a checkout: `go build -o watch-my-harness ./go/cmd/watch-my-harness`. Run the tests with `go test ./...`.
+
 ## First run
 
 1. Run `watch-my-harness`. The dashboard opens in its own window.
@@ -33,7 +44,7 @@ No Python, Node or Docker needed. Check the download against `SHA256SUMS.txt` if
 
 ## What you get
 
-Cost and token breakdowns by agent, model, project and day · session drill-downs · skill usage · a rule-based tips engine that spots repeat reads, oversized models for small turns and cache misses · local "builder profile".
+Cost and token breakdowns by agent, model, project and day · session drill-downs · skill usage · a rule-based tips engine that spots repeat reads, oversized models for small turns and cache misses · local "builder profile" · an archive that keeps your history after Claude Code deletes its own session files.
 
 ## Privacy
 
@@ -45,4 +56,4 @@ Full docs: see [`docs/`](docs/index.md) (also published on Read the Docs).
 
 ## Licence and credits
 
-Free to use during the beta. Source is not published. Built on the MIT-licensed [nateherkai/token-dashboard](https://github.com/nateherkai/token-dashboard); upstream notices are in [`NOTICE`](NOTICE).
+MIT. See [`LICENSE`](LICENSE). Built on the MIT-licensed [nateherkai/token-dashboard](https://github.com/nateherkai/token-dashboard); upstream and third-party notices are in [`NOTICE`](NOTICE). Issues and pull requests are welcome; see [`CONTRIBUTING.md`](CONTRIBUTING.md).

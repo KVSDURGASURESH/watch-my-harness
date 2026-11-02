@@ -1,0 +1,72 @@
+{
+ "body": [
+  {
+   "cache_create_1h_tokens": 6000,
+   "cache_create_5m_tokens": 34410,
+   "cache_read_tokens": 37350,
+   "cost_usd": 4.8547,
+   "input_tokens": 303027,
+   "output_tokens": 5711,
+   "plan": "api",
+   "plan_label": "API (pay-per-token)",
+   "plan_monthly": 0,
+   "sessions": 4,
+   "source": "claude",
+   "turns": 43,
+   "unpriced_models": 1
+  },
+  {
+   "cache_create_1h_tokens": 0,
+   "cache_create_5m_tokens": 0,
+   "cache_read_tokens": 700,
+   "cost_usd": null,
+   "input_tokens": 1500,
+   "output_tokens": 100,
+   "plan": "pro",
+   "plan_label": "Pro",
+   "plan_monthly": 20,
+   "sessions": 1,
+   "source": "codex",
+   "turns": 2,
+   "unpriced_models": 1
+  },
+  {
+   "cache_create_1h_tokens": 0,
+   "cache_create_5m_tokens": 14,
+   "cache_read_tokens": 5900,
+   "cost_usd": 0.0011,
+   "input_tokens": 1010,
+   "output_tokens": 150,
+   "plan": "api",
+   "plan_label": "API (pay-per-token)",
+   "plan_monthly": 0,
+   "sessions": 2,
+   "source": "hermes",
+   "turns": 2,
+   "unpriced_models": 0
+  },
+  {
+   "cache_create_1h_tokens": 0,
+   "cache_create_5m_tokens": 0,
+   "cache_read_tokens": 300,
+   "cost_usd": 0.0,
+   "input_tokens": 411,
+   "output_tokens": 87,
+   "plan": "api",
+   "plan_label": "API (pay-per-token)",
+   "plan_monthly": 0,
+   "sessions": 2,
+   "source": "openclaw",
+   "turns": 2,
+   "unpriced_models": 1
+  }
+ ],
+ "name": "by_source",
+ "request": {
+  "body": null,
+  "headers": {},
+  "method": "GET",
+  "path": "/api/by-source"
+ },
+ "status": 200
+}

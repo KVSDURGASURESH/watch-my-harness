@@ -1,0 +1,15 @@
+{
+ "body": {
+  "insufficient_data": true,
+  "minimum": 10,
+  "turns": 2
+ },
+ "name": "profile_codex",
+ "request": {
+  "body": null,
+  "headers": {},
+  "method": "GET",
+  "path": "/api/profile?source=codex"
+ },
+ "status": 200
+}

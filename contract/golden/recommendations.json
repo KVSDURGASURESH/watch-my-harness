@@ -1,0 +1,13 @@
+{
+ "body": {
+  "markdown": ""
+ },
+ "name": "recommendations",
+ "request": {
+  "body": null,
+  "headers": {},
+  "method": "GET",
+  "path": "/api/recommendations"
+ },
+ "status": 200
+}

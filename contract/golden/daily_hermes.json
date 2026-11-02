@@ -1,0 +1,19 @@
+{
+ "body": [
+  {
+   "cache_create_tokens": 14,
+   "cache_read_tokens": 5900,
+   "day": "2026-09-20",
+   "input_tokens": 1010,
+   "output_tokens": 150
+  }
+ ],
+ "name": "daily_hermes",
+ "request": {
+  "body": null,
+  "headers": {},
+  "method": "GET",
+  "path": "/api/daily?source=hermes"
+ },
+ "status": 200
+}

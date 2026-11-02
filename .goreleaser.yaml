@@ -1,0 +1,33 @@
+# GoReleaser config. Dry run (builds dist/, publishes nothing):
+#   goreleaser release --snapshot --clean --skip=publish
+# Real release: push a v* tag; .github/workflows/release.yml publishes it.
+version: 2
+project_name: watch-my-harness
+before:
+  hooks:
+    - go mod tidy
+builds:
+  - id: watch-my-harness
+    main: ./go/cmd/watch-my-harness
+    binary: watch-my-harness
+    env: [CGO_ENABLED=0]
+    goos: [darwin, linux, windows]
+    goarch: [amd64, arm64]
+    ignore:
+      - {goos: windows, goarch: arm64}
+    flags: [-trimpath]
+    ldflags:
+      - -s -w -X github.com/KVSDURGASURESH/watch-my-harness/go/internal/server.Version={{.Version}}
+archives:
+  - formats: [tar.gz]
+    format_overrides:
+      - {goos: windows, formats: [zip]}
+    name_template: "{{ .ProjectName }}_{{ .Version }}_{{ .Os }}_{{ .Arch }}"
+    files: [LICENSE, NOTICE]
+checksum:
+  name_template: SHA256SUMS.txt
+release:
+  github: {owner: KVSDURGASURESH, name: watch-my-harness}
+  prerelease: auto
+changelog:
+  disable: true

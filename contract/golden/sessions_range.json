@@ -1,0 +1,52 @@
+{
+ "body": [
+  {
+   "ended": "2026-09-17T08:11:00Z",
+   "project_name": "alpha",
+   "project_slug": "-Users-x-alpha",
+   "session_id": "sess-alpha-1",
+   "source": "claude",
+   "started": "2026-09-15T09:00:00Z",
+   "tokens": 145740,
+   "turns": 24
+  },
+  {
+   "ended": "2026-09-17T08:04:00Z",
+   "project_name": "proj",
+   "project_slug": "-Users-x-proj",
+   "session_id": "01a03549-440a-7b53-b769-16c8a6a19ba0",
+   "source": "codex",
+   "started": "2026-09-16T19:03:00Z",
+   "tokens": 1600,
+   "turns": 2
+  },
+  {
+   "ended": "2026-09-16T10:02:00Z",
+   "project_name": "my-proj",
+   "project_slug": "-Users-x-my-proj",
+   "session_id": "sess-beta-2",
+   "source": "claude",
+   "started": "2026-09-16T10:00:00Z",
+   "tokens": 60,
+   "turns": 2
+  },
+  {
+   "ended": "2026-09-15T09:07:00Z",
+   "project_name": "my-proj",
+   "project_slug": "-Users-x-my-proj",
+   "session_id": "sess-beta-1",
+   "source": "claude",
+   "started": "2026-09-15T09:00:00Z",
+   "tokens": 166,
+   "turns": 3
+  }
+ ],
+ "name": "sessions_range",
+ "request": {
+  "body": null,
+  "headers": {},
+  "method": "GET",
+  "path": "/api/sessions?since=2026-09-15T00:00:00Z&until=2026-09-18T00:00:00Z"
+ },
+ "status": 200
+}

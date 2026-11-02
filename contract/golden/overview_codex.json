@@ -1,0 +1,20 @@
+{
+ "body": {
+  "cache_create_1h_tokens": 0,
+  "cache_create_5m_tokens": 0,
+  "cache_read_tokens": 700,
+  "cost_usd": null,
+  "input_tokens": 1500,
+  "output_tokens": 100,
+  "sessions": 1,
+  "turns": 2
+ },
+ "name": "overview_codex",
+ "request": {
+  "body": null,
+  "headers": {},
+  "method": "GET",
+  "path": "/api/overview?source=codex"
+ },
+ "status": 200
+}

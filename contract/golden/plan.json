@@ -1,0 +1,102 @@
+{
+ "body": {
+  "agent_plans": {
+   "codex": "pro"
+  },
+  "configured": false,
+  "plan": "api",
+  "pricing": {
+   "models": {
+    "claude-haiku-4-5": {
+     "cache_create_1h": 2.0,
+     "cache_create_5m": 1.25,
+     "cache_read": 0.1,
+     "input": 1.0,
+     "output": 5.0,
+     "tier": "haiku"
+    },
+    "claude-opus-4-6": {
+     "cache_create_1h": 30.0,
+     "cache_create_5m": 18.75,
+     "cache_read": 1.5,
+     "input": 15.0,
+     "output": 75.0,
+     "tier": "opus"
+    },
+    "claude-opus-4-7": {
+     "cache_create_1h": 30.0,
+     "cache_create_5m": 18.75,
+     "cache_read": 1.5,
+     "input": 15.0,
+     "output": 75.0,
+     "tier": "opus"
+    },
+    "claude-sonnet-4-6": {
+     "cache_create_1h": 6.0,
+     "cache_create_5m": 3.75,
+     "cache_read": 0.3,
+     "input": 3.0,
+     "output": 15.0,
+     "tier": "sonnet"
+    },
+    "qwen3.5": {
+     "cache_create_1h": 0.0,
+     "cache_create_5m": 0.0,
+     "cache_read": 0.0,
+     "input": 0.0,
+     "output": 0.0,
+     "tier": "local"
+    }
+   },
+   "plans": {
+    "api": {
+     "label": "API (pay-per-token)",
+     "monthly": 0
+    },
+    "max": {
+     "label": "Max",
+     "monthly": 100
+    },
+    "max-20x": {
+     "label": "Max 20x",
+     "monthly": 200
+    },
+    "pro": {
+     "label": "Pro",
+     "monthly": 20
+    }
+   },
+   "tier_fallback": {
+    "haiku": {
+     "cache_create_1h": 2.0,
+     "cache_create_5m": 1.25,
+     "cache_read": 0.1,
+     "input": 1.0,
+     "output": 5.0
+    },
+    "opus": {
+     "cache_create_1h": 30.0,
+     "cache_create_5m": 18.75,
+     "cache_read": 1.5,
+     "input": 15.0,
+     "output": 75.0
+    },
+    "sonnet": {
+     "cache_create_1h": 6.0,
+     "cache_create_5m": 3.75,
+     "cache_read": 0.3,
+     "input": 3.0,
+     "output": 15.0
+    }
+   }
+  }
+ },
+ "name": "plan",
+ "request": {
+  "body": null,
+  "headers": {},
+  "method": "GET",
+  "path": "/api/plan"
+ },
+ "status": 200
+}

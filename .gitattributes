@@ -1,0 +1,3 @@
+# Byte offsets are part of codex message ids; never rewrite line endings in fixtures/goldens.
+contract/fixtures/** -text
+contract/golden/** -text

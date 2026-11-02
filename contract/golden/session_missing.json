@@ -1,0 +1,11 @@
+{
+ "body": [],
+ "name": "session_missing",
+ "request": {
+  "body": null,
+  "headers": {},
+  "method": "GET",
+  "path": "/api/sessions/nope"
+ },
+ "status": 200
+}

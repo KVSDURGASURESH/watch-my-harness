@@ -1,0 +1,29 @@
+{
+ "body": [
+  {
+   "agents": [
+    "codex"
+   ],
+   "by_agent": {
+    "codex": 3
+   },
+   "cache_create_1h_tokens": 0,
+   "cache_create_5m_tokens": 0,
+   "cache_read_tokens": 700,
+   "cost_estimated": true,
+   "cost_usd": null,
+   "input_tokens": 1500,
+   "model": "gpt-5-codex",
+   "output_tokens": 100,
+   "turns": 3
+  }
+ ],
+ "name": "by_model_codex",
+ "request": {
+  "body": null,
+  "headers": {},
+  "method": "GET",
+  "path": "/api/by-model?source=codex"
+ },
+ "status": 200
+}

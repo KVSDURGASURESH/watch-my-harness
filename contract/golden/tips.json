@@ -1,0 +1,11 @@
+{
+ "body": [],
+ "name": "tips",
+ "request": {
+  "body": null,
+  "headers": {},
+  "method": "GET",
+  "path": "/api/tips"
+ },
+ "status": 200
+}

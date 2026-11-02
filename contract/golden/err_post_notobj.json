@@ -1,0 +1,15 @@
+{
+ "body": {
+  "error": "body must be a JSON object"
+ },
+ "name": "err_post_notobj",
+ "request": {
+  "body": "[1]",
+  "headers": {
+   "Content-Type": "application/json"
+  },
+  "method": "POST",
+  "path": "/api/plan"
+ },
+ "status": 400
+}

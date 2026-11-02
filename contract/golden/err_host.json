@@ -1,0 +1,15 @@
+{
+ "body": {
+  "error": "host not allowed (set TOKEN_DASHBOARD_ALLOWED_HOSTS)"
+ },
+ "name": "err_host",
+ "request": {
+  "body": null,
+  "headers": {
+   "Host": "evil.example.com"
+  },
+  "method": "GET",
+  "path": "/api/overview"
+ },
+ "status": 403
+}

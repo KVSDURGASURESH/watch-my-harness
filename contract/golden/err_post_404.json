@@ -1,0 +1,13 @@
+{
+ "body": null,
+ "name": "err_post_404",
+ "request": {
+  "body": "{}",
+  "headers": {
+   "Content-Type": "application/json"
+  },
+  "method": "POST",
+  "path": "/api/other"
+ },
+ "status": 404
+}

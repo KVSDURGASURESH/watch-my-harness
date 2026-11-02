@@ -1,0 +1,26 @@
+{
+ "body": [
+  {
+   "assistant_uuid": "a-a11",
+   "billable_tokens": 11822,
+   "cache_read_tokens": 1000,
+   "estimated_cost_usd": 0.0015,
+   "model": "claude-opus-4-7",
+   "project_slug": "-Users-x-alpha",
+   "prompt_chars": 67,
+   "prompt_text": "Please implement step 11 of the plan carefully, with tests and docs",
+   "session_id": "sess-alpha-1",
+   "source": "claude",
+   "timestamp": "2026-09-16T12:00:00Z",
+   "user_uuid": "a-u11"
+  }
+ ],
+ "name": "prompts_limit0",
+ "request": {
+  "body": null,
+  "headers": {},
+  "method": "GET",
+  "path": "/api/prompts?limit=0"
+ },
+ "status": 200
+}

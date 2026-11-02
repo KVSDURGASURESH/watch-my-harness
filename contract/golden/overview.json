@@ -1,0 +1,20 @@
+{
+ "body": {
+  "cache_create_1h_tokens": 6000,
+  "cache_create_5m_tokens": 34424,
+  "cache_read_tokens": 44250,
+  "cost_usd": 4.8558,
+  "input_tokens": 305948,
+  "output_tokens": 6048,
+  "sessions": 9,
+  "turns": 49
+ },
+ "name": "overview",
+ "request": {
+  "body": null,
+  "headers": {},
+  "method": "GET",
+  "path": "/api/overview"
+ },
+ "status": 200
+}

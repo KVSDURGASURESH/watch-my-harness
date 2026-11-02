@@ -1,0 +1,15 @@
+{
+ "body": {
+  "error": "Content-Type must be application/json"
+ },
+ "name": "err_post_ctype",
+ "request": {
+  "body": "plan=pro",
+  "headers": {
+   "Content-Type": "text/plain"
+  },
+  "method": "POST",
+  "path": "/api/plan"
+ },
+ "status": 415
+}

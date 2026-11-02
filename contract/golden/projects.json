@@ -1,0 +1,110 @@
+{
+ "body": [
+  {
+   "agents": [
+    "claude"
+   ],
+   "billable_tokens": 348897,
+   "by_agent": {
+    "claude": 348897
+   },
+   "cache_read_tokens": 37000,
+   "input_tokens": 302866,
+   "output_tokens": 5631,
+   "project_name": "alpha",
+   "project_slug": "-Users-x-alpha",
+   "sessions": 1,
+   "turns": 36
+  },
+  {
+   "agents": [
+    "codex",
+    "hermes"
+   ],
+   "billable_tokens": 2774,
+   "by_agent": {
+    "codex": 1600,
+    "hermes": 1174
+   },
+   "cache_read_tokens": 6600,
+   "input_tokens": 2510,
+   "output_tokens": 250,
+   "project_name": "proj",
+   "project_slug": "-Users-x-proj",
+   "sessions": 3,
+   "turns": 4
+  },
+  {
+   "agents": [
+    "openclaw"
+   ],
+   "billable_tokens": 492,
+   "by_agent": {
+    "openclaw": 492
+   },
+   "cache_read_tokens": 300,
+   "input_tokens": 406,
+   "output_tokens": 86,
+   "project_name": "claw",
+   "project_slug": "-Users-x-claw",
+   "sessions": 1,
+   "turns": 2
+  },
+  {
+   "agents": [
+    "claude"
+   ],
+   "billable_tokens": 236,
+   "by_agent": {
+    "claude": 236
+   },
+   "cache_read_tokens": 300,
+   "input_tokens": 151,
+   "output_tokens": 75,
+   "project_name": "my-proj",
+   "project_slug": "-Users-x-my-proj",
+   "sessions": 2,
+   "turns": 5
+  },
+  {
+   "agents": [
+    "claude"
+   ],
+   "billable_tokens": 15,
+   "by_agent": {
+    "claude": 15
+   },
+   "cache_read_tokens": 50,
+   "input_tokens": 10,
+   "output_tokens": 5,
+   "project_name": "work",
+   "project_slug": "-c-work",
+   "sessions": 1,
+   "turns": 2
+  },
+  {
+   "agents": [
+    "openclaw"
+   ],
+   "billable_tokens": 6,
+   "by_agent": {
+    "openclaw": 6
+   },
+   "cache_read_tokens": 0,
+   "input_tokens": 5,
+   "output_tokens": 1,
+   "project_name": "proj",
+   "project_slug": "claw-proj",
+   "sessions": 1,
+   "turns": 0
+  }
+ ],
+ "name": "projects",
+ "request": {
+  "body": null,
+  "headers": {},
+  "method": "GET",
+  "path": "/api/projects"
+ },
+ "status": 200
+}

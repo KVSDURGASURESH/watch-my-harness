@@ -1,0 +1,152 @@
+{
+ "body": [
+  {
+   "agents": [
+    "claude"
+   ],
+   "by_agent": {
+    "claude": 24
+   },
+   "cache_create_1h_tokens": 6000,
+   "cache_create_5m_tokens": 34010,
+   "cache_read_tokens": 12050,
+   "cost_estimated": false,
+   "cost_usd": 4.612703,
+   "input_tokens": 228116,
+   "model": "claude-opus-4-7",
+   "output_tokens": 4736,
+   "turns": 24
+  },
+  {
+   "agents": [
+    "claude",
+    "hermes"
+   ],
+   "by_agent": {
+    "claude": 26,
+    "hermes": 3
+   },
+   "cache_create_1h_tokens": 0,
+   "cache_create_5m_tokens": 407,
+   "cache_read_tokens": 21200,
+   "cost_estimated": false,
+   "cost_usd": 0.238016,
+   "input_tokens": 72810,
+   "model": "claude-sonnet-4-6",
+   "output_tokens": 780,
+   "turns": 29
+  },
+  {
+   "agents": [
+    "codex"
+   ],
+   "by_agent": {
+    "codex": 3
+   },
+   "cache_create_1h_tokens": 0,
+   "cache_create_5m_tokens": 0,
+   "cache_read_tokens": 700,
+   "cost_estimated": true,
+   "cost_usd": null,
+   "input_tokens": 1500,
+   "model": "gpt-5-codex",
+   "output_tokens": 100,
+   "turns": 3
+  },
+  {
+   "agents": [
+    "openclaw",
+    "hermes"
+   ],
+   "by_agent": {
+    "hermes": 3,
+    "openclaw": 4
+   },
+   "cache_create_1h_tokens": 0,
+   "cache_create_5m_tokens": 7,
+   "cache_read_tokens": 5300,
+   "cost_estimated": false,
+   "cost_usd": 0.0,
+   "input_tokens": 1406,
+   "model": "qwen3.5",
+   "output_tokens": 186,
+   "turns": 7
+  },
+  {
+   "agents": [
+    "claude"
+   ],
+   "by_agent": {
+    "claude": 2
+   },
+   "cache_create_1h_tokens": 0,
+   "cache_create_5m_tokens": 0,
+   "cache_read_tokens": 5000,
+   "cost_estimated": false,
+   "cost_usd": 0.001786,
+   "input_tokens": 811,
+   "model": "claude-haiku-4-5",
+   "output_tokens": 95,
+   "turns": 2
+  },
+  {
+   "agents": [
+    "claude"
+   ],
+   "by_agent": {
+    "claude": 1
+   },
+   "cache_create_1h_tokens": 0,
+   "cache_create_5m_tokens": 0,
+   "cache_read_tokens": 0,
+   "cost_estimated": true,
+   "cost_usd": 0.0033,
+   "input_tokens": 700,
+   "model": "claude-sonnet-5-5",
+   "output_tokens": 80,
+   "turns": 1
+  },
+  {
+   "agents": [
+    "claude"
+   ],
+   "by_agent": {
+    "claude": 1
+   },
+   "cache_create_1h_tokens": 0,
+   "cache_create_5m_tokens": 0,
+   "cache_read_tokens": 0,
+   "cost_estimated": true,
+   "cost_usd": null,
+   "input_tokens": 600,
+   "model": "mystery-model",
+   "output_tokens": 70,
+   "turns": 1
+  },
+  {
+   "agents": [
+    "openclaw"
+   ],
+   "by_agent": {
+    "openclaw": 1
+   },
+   "cache_create_1h_tokens": 0,
+   "cache_create_5m_tokens": 0,
+   "cache_read_tokens": 0,
+   "cost_estimated": true,
+   "cost_usd": null,
+   "input_tokens": 5,
+   "model": "gpt-x",
+   "output_tokens": 1,
+   "turns": 1
+  }
+ ],
+ "name": "by_model",
+ "request": {
+  "body": null,
+  "headers": {},
+  "method": "GET",
+  "path": "/api/by-model"
+ },
+ "status": 200
+}
