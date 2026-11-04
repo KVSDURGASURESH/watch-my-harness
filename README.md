@@ -1,6 +1,6 @@
 # WATCH MY HARNESS
 
-**Token Dashboard: see where your AI-coding tokens went.** A local-first dashboard for Claude Code, Codex, Hermes and any other harness you use. Open source (MIT). One small file, nothing to install, nothing leaves your machine.
+**Token Dashboard: see where your AI-coding tokens went.** A local-first dashboard for Claude Code, Codex, Hermes and any other harness you use. Open source (MIT). Pick the Go build (one small file) or the Python edition (clone and run). Nothing leaves your machine.
 
 ![Overview](docs/images/overview.png)
 
@@ -34,13 +34,25 @@ watch-my-harness
 
 Or from a checkout: `go build -o watch-my-harness ./go/cmd/watch-my-harness`. Run the tests with `go test ./...`.
 
+## Or run the Python edition
+
+Prefer readable source over a download, or no Go installed? The Python edition is the same dashboard in standard-library Python
+(3.9+, no pip, no build). Same screens, same data, same snapshots.
+
+```sh
+git clone https://github.com/KVSDURGASURESH/watch-my-harness
+cd watch-my-harness && ./python/run.sh        # Windows: py python\cli.py dashboard
+```
+
+Details and a comparison: [Python edition](docs/python.md).
+
 ## First run
 
 1. Run `watch-my-harness`. The dashboard opens in its own window.
 2. Pick the harnesses to track. Claude Code, Codex and Hermes are listed by default and you can edit, remove or add your own (any tool that writes the simple `generic` log format).
 3. It scans your history and shows your usage. Change the sources any time in **Settings → Sources**.
 
-**Unsigned beta:** macOS shows "unidentified developer" the first time (right-click the app → Open, or `xattr -d com.apple.quarantine watch-my-harness`). Windows SmartScreen shows "More info → Run anyway". Signed builds will come later.
+**Unsigned beta (the Go downloads):** macOS shows "unidentified developer" the first time (right-click the app → Open, or `xattr -d com.apple.quarantine watch-my-harness`). Windows SmartScreen shows "More info → Run anyway". Signed builds will come later.
 
 ## What you get
 

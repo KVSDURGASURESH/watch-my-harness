@@ -4,3 +4,6 @@ dist/
 !contract/fixtures/**/*.db
 /watch-my-harness
 /watch-my-harness.exe
+__pycache__/
+*.pyc
+.gstack/
