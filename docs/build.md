@@ -1,6 +1,6 @@
 # Build from source
 
-Requirements: Go (the version in `go.mod`). No CGO, no Node, no Python.
+Requirements: Go (the version in `go.mod`). No CGO, no Node. (The Python edition needs no build at all; see [Python edition](python.md).)
 
 ```sh
 git clone https://github.com/KVSDURGASURESH/watch-my-harness

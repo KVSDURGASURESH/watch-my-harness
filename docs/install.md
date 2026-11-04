@@ -1,5 +1,7 @@
 # Install
 
+Two ways to run it: download the Go build (below), or clone the repo and run the [Python edition](python.md) if you would rather run readable source or have no download you trust. Same screens and data either way.
+
 1. Download the archive for your system from the latest release and unpack it.
 2. Run `watch-my-harness` (`watch-my-harness.exe` on Windows). It starts a local server and opens the dashboard in its own window using your installed Chrome, Edge or Chromium. If none is found it opens your default browser.
 3. Complete the first-run screen: tick the harnesses to track and press **Start scan**.
