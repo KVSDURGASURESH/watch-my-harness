@@ -6,3 +6,4 @@ dist/
 /watch-my-harness.exe
 __pycache__/
 *.pyc
+.gstack/
