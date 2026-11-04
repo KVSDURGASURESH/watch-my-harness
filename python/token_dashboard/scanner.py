@@ -745,12 +745,16 @@ def scan_source(name: str, kind: str, root: Union[str, Path], db_path: Union[str
             try:
                 stat = p.stat()
             except OSError:
+                if progress:
+                    progress.tick()
                 continue
             row = conn.execute(
                 "SELECT mtime, bytes_read, state FROM files WHERE path=?", (str(p),)
             ).fetchone()
             offset, state = 0, None
             if row and row["mtime"] == stat.st_mtime and row["bytes_read"] == stat.st_size:
+                if progress:
+                    progress.tick()  # unchanged files still count toward files_done
                 continue
             if row and stat.st_size > row["bytes_read"]:
                 offset = row["bytes_read"]

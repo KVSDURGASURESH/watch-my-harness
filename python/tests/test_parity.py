@@ -217,6 +217,9 @@ class ScanProgressTests(unittest.TestCase):
         self.assertEqual((s["running"], s["files_total"], s["files_done"]), (False, 1, 1))
         self.assertEqual(s["messages"], n["messages"])
         self.assertGreater(s["finished_ms"], 0)
+        rt.scan_now()  # nothing changed: every file is skipped but still counted
+        s = rt.progress.snapshot()
+        self.assertEqual((s["files_total"], s["files_done"], s["messages"]), (1, 1, 0))
 
 
 if __name__ == "__main__":
